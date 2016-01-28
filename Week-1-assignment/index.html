@@ -5,15 +5,64 @@
 		<title>HAIKU</title>
 		<!-- //add style -->
 		<style>
-		//used to group elements for styling purposes
-			div{
-				color:red;
+		/*//used to group elements for styling purposes*/
+			div {
+				color:rgb(255,255,255);
+				font-family: Avenir;
+				/*font-size: 30px;*/
+				/*font-variant: small-caps;*/
+				font-weight: 500;
+				/*//top right bottom left*/
+				/*padding: 25px 25px 25px 25px;*/
+				/*line-height: 20px;*/
+				border: dashed limegreen;
 			}
+			.first-div{
+				background-color:orange;
+				font-size: 30px;
+				padding: 1em;
+			}
+			.second-div{
+				background-color:orange;
+				font-size: 20px;
+				padding: 1em
+			}
+			.second-div:hover{
+				font-size: 30px;
+				font-weight: 100;
+				font-style: oblique;
+			}
+			.third-div{
+				background-color:yellow;
+				font-size: 20px;
+				padding: 1em;
+			}
+		</style>	
+	</head>
 
-		
+	<body>
+		<div class= "first-div">
+			SPRING RAIN: 
 
+			</div>
+		<div class="second-div">
+			Browsing under an umbrella 
+			</div>
+		<div class="third-div">
+			At the picture- book store
+			</div>
 
+	</body>
+<!-- //get script from jquery is a javascript library makes working with elments easier in website -->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js">
+</script>
 
-		</head>
+<script>
+//select an element and do something with it from the
+//dollar sign calls out that you are calling out jquery the website  
+	$('.first-div').click(function(){
+		$(this).toggleClass("really-tall")
+	});
+	</script>
 
 		
