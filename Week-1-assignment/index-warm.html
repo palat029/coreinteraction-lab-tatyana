@@ -1,1 +1,103 @@
-<doc html>
+<!-- //select an element and do something with it from the -->
+<doctype html>
+	<head>
+		<!-- //title for haiku -->
+		<title>HAIKU</title>
+		<!-- //add style -->
+		<style>
+		/*//used to group elements for styling purposes*/
+			div {
+				
+				font-family: Avenir;
+				/*font-size: 30px;*/
+				font-weight: 500;
+				/*//top right bottom left*/
+				/*padding: 25px 25px 25px 25px;*/
+				line-height: 1.2;
+				/*border: dashed limegreen;*/
+				width: 300px;
+				height: 83px;
+				background-color:orange;
+				margin-top: 10px;
+				margin-left:320px;
+			}
+			.first-div{
+				font-size: 30px;
+				padding:20px;
+				text-align: center;
+				color:rgb(255,255,255);
+				
+			}
+			.first-div:hover{
+				padding: 1em;
+				font-weight: 100;
+				font-style: oblique;
+				text-align: center;
+				color:rgb(255,255,102);
+			}
+			.second-div{
+				font-size: 20px;
+				padding: 1em;
+				text-align: center;
+				color:rgb(255,255,255);
+			}
+			.second-div:hover{
+				font-size: 30px;
+				font-weight: 100;
+				font-style: oblique;
+				text-align: center;
+				color:rgb(255,255,102);
+			}
+			.third-div{
+				font-size: 20px;
+				padding: 1em;
+				text-align: center;
+				color:rgb(255,255,255);
+			}
+			.third-div:hover{
+				font-size: 30px;
+				font-weight: 100;
+				font-style: oblique;
+				text-align: center;
+				color:rgb(255,255,102);
+			}
+			.really-tall{
+				background-color:rgb(255,0,0);
+			}
+			.really-big{
+				background-color:rgb(255,204,0);
+			}
+		</style>	
+	</head>
+
+	<body>
+		<div class= "first-div">
+			SPRING RAIN: 
+
+			</div>
+		<div class="second-div">
+			Browsing under an umbrella 
+			</div>
+		<div class="third-div">
+			At the picture- book store
+			</div>
+
+	</body>
+<!-- //get script from jquery is a javascript library makes working with elments easier in website -->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js">
+</script>
+
+<script>
+//select an element and do something with it from the
+//dollar sign calls out that you are calling out jquery the website  
+	$('.first-div').click(function(){
+		$(this).toggleClass("really-tall")
+	});
+	</script>
+<script>
+	$('.second-div').click(function(){
+		$(this).toggleClass("really-big")
+	});
+	</script>
+
+		
