@@ -1,0 +1,105 @@
+<!-- //select an element and do something with it from the -->
+<doctype html>
+	<head>
+		<!-- //title for haiku -->
+		<title>NIGHT HAIKU</title>
+		<!-- //add style -->
+		<style>
+		/*//used to group elements for styling purposes*/
+		body{
+			background: rgb(39,3,115);
+
+		}
+			div {
+				font-family: baskerville;
+				font-size: 24pt;
+			}
+			.first-div{
+				font-size: 24pt;
+				padding:20px;
+				text-align: center;
+				color:rgb(255,255,255);
+				
+			}
+			.first-div:hover{
+				padding: 1em;
+				font-size: 89pt;
+				font-weight: 100;
+				font-style: bold;
+				text-align: center;
+				color:rgb(164,46,189);
+			}
+			.second-div{
+				font-size: 20pt;
+				color:rgb(39,3,115);
+			}
+			.second-div:hover{
+				font-size: 30px;
+				font-weight: bold;
+				font-style:noraml;
+				text-align: center;
+				color:rgb(164,46,189);
+			}
+			.third-div{
+				font-size: 20px;
+				padding: 1em;
+				text-align: center;
+				color:rgb(255,255,255);
+			}
+			.third-div:hover{
+				font-size: 30px;
+				font-weight: bold;
+				text-align: center;
+				color:rgb(86,98,166);
+			}
+			.really-tall{
+				background-color:rgb(56,53,140);
+			}
+			.really-big{
+				background-color:rgb(25,3,166);
+				color:rgb(164,46,189);
+				text-align: center;
+				padding-left:1em;
+			}
+		</style>	
+	</head>
+
+	<body>
+		<div class= "first-div">
+			Surprise! 
+
+			</div>
+		<div class="second-div">
+			A moon flower fell 
+			</div>
+		<div class="third-div">
+			midnight sound
+			</div>
+
+	</body>
+<!-- //get script from jquery is a javascript library makes working with elments easier in website -->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js">
+</script>
+
+<script>
+//select an element and do something with it from the
+//dollar sign calls out that you are calling out jquery the website  
+	$('.first-div').click(function(){
+		$(this).toggleClass("really-tall")
+	});
+	</script>
+<script>
+	$('.second-div').click(function(){
+		$(this).toggleClass("really-big")
+	});
+	</script>
+
+		
+
+
+
+
+
+
+
+		
