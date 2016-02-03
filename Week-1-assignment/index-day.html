@@ -1,0 +1,109 @@
+<!-- //select an element and do something with it from the -->
+<doctype html>
+	<head>
+		<!-- //title for haiku -->
+		<title>DAY HAIKU</title>
+		<!-- //add style -->
+		<style>
+		/*//used to group elements for styling purposes*/
+		body{
+			background: rgb(255,243,100);
+			border-top: rgb(140,252,255);
+			border:dashed rgb(140,252,255);
+
+		}
+			div {
+				font-family: Gill Sans;
+				font-size: 24pt;
+			}
+			.first-div{
+				font-size: 50pt;
+				font-weight: medium;
+				padding:100px;
+				text-align: center;
+				color:rgb(255,255,255);
+				
+			}
+			.first-div:hover{
+				padding: 1em;
+				font-size: 89pt;
+				font-weight: 100;
+				font-style: bold;
+				text-align: center;
+				color:rgb(154,196,255);
+			}
+			.second-div{
+				font-size: 20pt;
+				text-align:center;
+				color:rgb(255,100,82);
+			}
+			.second-div:hover{
+				font-size: 30px;
+				font-weight: bold;
+				font-style:noraml;
+				text-align: center;
+				color:rgb(164,46,189);
+			}
+			.third-div{
+				font-size: 20px;
+				padding: 1em;
+				text-align: center;
+				color:rgb(255,100,82);
+			}
+			.third-div:hover{
+				font-size: 30px;
+				font-weight: bold;
+				text-align: center;
+				color:rgb(255,81,106);
+			}
+			.really-tall{
+				background-color:rgb(140,252,255);
+			}
+			.really-big{
+				color:rgb(255,184,74);
+				font-size: 89pt;
+				text-align: center;
+				padding-left:1em;
+			}
+		</style>	
+	</head>
+
+	<body>
+		<div class= "first-div">
+			Surprise! 
+
+			</div>
+		<div class="second-div">
+			A moon flower fell 
+			</div>
+		<div class="third-div">
+			midnight sound
+			</div>
+
+	</body>
+<!-- //get script from jquery is a javascript library makes working with elments easier in website -->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js">
+</script>
+
+<script>
+//select an element and do something with it from the
+//dollar sign calls out that you are calling out jquery the website  
+	$('.second-div').click(function(){
+		$(this).toggleClass("really-tall")
+	});
+	</script>
+<script>
+	$('.third-div').click(function(){
+		$(this).toggleClass("really-big")
+	});
+	</script>
+
+		
+
+
+
+
+
+
+
+		
