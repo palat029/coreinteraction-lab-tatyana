@@ -1,0 +1,61 @@
+body {
+  font-family: Arial;
+  padding: 60px;
+}
+
+/* Title */
+
+.page-title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+/* Pet type */
+
+.pet-type {
+  background: green;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.pet-type-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pet-type-attributes {
+  background: white;
+  padding: 20px;
+}
+
+.pet-type-attributes div {
+  margin-bottom: 20px;
+}
+
+/* Pet type colors */
+
+.pet-type.furry .pet-type-title {
+  color: lightBlue;
+}
+
+.pet-type.furry .pet-type-attributes {
+  background: lightBlue;
+}
+
+.pet-type.dog .pet-type-title {
+  color: orange;
+}
+
+.pet-type.dog .pet-type-attributes {
+  background: orange;
+}
+
+.pet-type.strong .pet-type-title {
+  color: red;
+}
+
+.pet-type.strong .pet-type-attributes {
+  background: red;
+}

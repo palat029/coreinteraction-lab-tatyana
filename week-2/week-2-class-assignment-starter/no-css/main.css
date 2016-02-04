@@ -1,0 +1,71 @@
+body {
+ background-color: lightblue;
+ font-size: 12pt;
+ font-family: Arial;
+
+}
+/*div{
+	padding: 0.5em;
+}*/
+
+.header {
+	font-size: 18pt;
+	color: rgb(0,0,0);
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+.place.desert {
+	margin-bottom: 20px;
+	padding: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background: orange;
+	text-align: center; 
+	color:darkorange;
+	border:solid yellow;
+	border-width: 20px;
+}
+.place-footer{
+	color:darkorange;
+	padding:20px;
+	margin-bottom: 20px;
+	text-align: center;
+	background-color: orange;
+
+}
+.place.jungle{
+	color: yellow;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding:20px;
+	margin-bottom: 20px;
+	text-align: center;
+	background:darkgreen;
+	border:solid green;
+	border-width: 20px;
+}
+.place-footer.jungle{
+	color: yellow;
+	margin-bottom: 20px;
+	background: darkgreen;
+	text-align: center;
+	
+}
+.place.city {
+	color: white;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding:20px;
+	margin-bottom: 20px;
+	text-align: center;
+	background-color: #555;
+	border: solid black;
+	border-width: 20px;
+}
+.place-footer.city {
+	color:white;
+	text-align: center;
+	background-color: #444;
+	margin-bottom: 20px;
+}
