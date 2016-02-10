@@ -1,0 +1,101 @@
+body{
+	font-family: Futura, arial, helvetica;
+	padding:20px 40px;
+	background: black;
+}
+/* Title */
+.page-title {
+	margin-right: 0px;
+	font-weight: bold;
+	font-size: 30pt;
+	text-align: left;
+	color:rgb(255,255,255);
+	letter-spacing: 1.8px;
+}
+.page-title.Below {
+	color:rgb(30,174,145);
+	font-weight: lighter;
+	font-size: 32pt;
+}
+.tabs {
+	position: relative;
+	min-height:1200px;
+	clear: both;
+	margin: 10px;
+	background: black;
+}
+
+.tab {
+	border: solid black;
+	float: right;
+}
+
+.tab label{
+	background: rgb(30,174,145);
+	color:white;
+	padding: 10px;
+	margin-left: -1px;
+	position:relative;
+	left:1px;
+	top:-29px;
+
+}
+.tab [type=radio]{
+	display: none;
+}
+.content {
+	position: absolute;
+	color:white;
+	top:-4px;
+	left:-20px;
+	background: black;
+	right:0;
+	bottom: 0;
+	padding: 80px;	
+	opacity: 0;
+}
+.content.tab-2{
+	font-weight: lighter;
+	font-size: 13pt;
+	text-indent: 5em hanging;
+}
+.content.tab-3 {
+	font-size: 50pt;
+	padding-right: 1.5em;
+	text-align: justify;
+	text-indent: -.4em;
+}
+
+[type=radio]:checked ~ label {
+	background: white;
+	color:rgb(30,174,145);
+	border-bottom: .5px solid white;
+	z-index: 2;	
+}
+[type=radio]:checked ~ .content{
+	z-index: 1;
+	opacity: 1;
+}
+
+/*tab provider http://jsfiddle.net/jacobdubail/bKaxg/*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
