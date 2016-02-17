@@ -1,0 +1,36 @@
+.first {
+	float: right;
+	width: 200px;
+	height: 450px;
+	background: pink;
+	margin-top: 0px;
+}
+.second{
+	position: relative;
+	float:right;
+	left:190px;
+	top:10px;
+	margin-left:-10px;
+	display: block;
+	background-color: blue;
+	width:180px;
+	height:30px;
+}
+.third{
+	position: relative;
+	float:right;
+	left:370px;
+	top:45px;
+	background-color: blue;
+	width:180px;
+	height:30px;
+}
+.fourth{
+	position: relative;
+	float:right;
+	left:370px;
+	top:50px;
+	background-color: blue;
+	width:180px;
+	height:30px;
+}

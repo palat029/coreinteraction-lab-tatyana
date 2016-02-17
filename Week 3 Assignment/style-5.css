@@ -1,0 +1,82 @@
+.first {
+	float: right;
+	width: 200px;
+	height: 450px;
+	background: pink;
+	margin-top: 0px;
+}
+.second{
+	position: relative;
+	float:right;
+	left:190px;
+	top:10px;
+	margin-left:-10px;
+	display: block;
+	background-color: blue;
+	width:180px;
+	height:30px;
+}
+.third{
+	position: relative;
+	float:right;
+	left:370px;
+	top:45px;
+	background-color: blue;
+	width:180px;
+	height:30px;
+}
+.fourth{
+	position: relative;
+	float:right;
+	left:540px;
+	top:80px;
+	background-color: blue;
+	width:180px;
+	height:30px;
+}
+.fifth{
+	position: relative;
+	float:right;
+	left:720px;
+	top:115px;
+	background-color: blue;
+	width:180px;
+	height:30px;
+}
+.sixth{
+	position: relative;
+	float:right;
+	left:910px;
+	top:150px;
+	background-color: blue;
+	width:180px;
+	height:30px;
+}
+.seventh{
+	position: absolute;
+	float:right;
+	left:945px;
+	top:193px;
+	background-color: blue;
+	width:180px;
+	height:30px;
+}
+.eigth{
+	position: absolute;
+	float:right;
+	left:945px;
+	top:360px;
+	background-color: green;
+	width:180px;
+	height:90px;
+}
+.ellipse{
+	position: relative;
+	background-color: red;
+	float:right;
+	left: 130px;
+	top:350px;
+	width: 55px;
+	height: 35px;
+ 	border-radius: 50%;
+}

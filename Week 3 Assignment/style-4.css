@@ -1,0 +1,61 @@
+.first {
+	position: absolute;
+	width: 150px;
+	height: 300px;
+	background: rgb(65,66,153);
+	margin-top: 0px;
+	
+}
+
+.second {
+	position: relative;
+	top:10px;
+	width:150px;
+	height:280px;
+	margin-top: 0px;
+	background: rgb(77,255,156);
+	margin-left: 70px;
+}
+.third{
+	position:absolute;
+	width:150px;
+	height:300px;
+	background:rgb(65,66,153);
+	margin-top: 30px;
+}
+.third-rect{
+	position: relative;
+	top:5px;
+	width:143px;
+	height:110px;
+	margin-left: 3px;
+	background-color: yellow;
+}
+.third-rect.block{
+	display: inline-block;
+	margin-top: 3px;
+	position: relative;
+	background-color: brown;
+	/*top:-30px;*/
+	bottom: 30px;
+	width:30px;
+	height:30px;
+	}
+.moved-rect{
+	/*display: inline-block;*/
+	position: relative;
+	background-color: yellow;
+	width:30px;
+	height:30px;
+	margin-left: 43px;
+	margin-top: -97px;
+}
+.top-rect{
+	/*display: inline-block;*/
+	position: relative;
+	background-color: brown;
+	width:30px;
+	height:30px;
+	margin-left: 43px;
+	margin-top: -40px;
+}

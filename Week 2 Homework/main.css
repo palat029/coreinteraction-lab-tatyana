@@ -59,6 +59,11 @@ body{
 	font-size: 13pt;
 	text-indent: 5em hanging;
 }
+.content.tab-2 div{
+	font-weight: lighter;
+	font-size: 13pt;
+	text-indent: 5em hanging;
+}
 .content.tab-3 {
 	font-size: 50pt;
 	padding-right: 1.5em;

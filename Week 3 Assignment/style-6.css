@@ -1,0 +1,58 @@
+.first {
+	float: left;
+	width: 300px;
+	height: 300px;
+	background: pink;
+	margin-top: 0px;
+}
+.second{
+	position: relative;
+	float:left;
+	background-color: blue;
+	width:300px;
+	height:300px;
+}
+.third{
+	position: absolute;
+	float:left;
+	left:260px;
+	top:100px;
+	background-color: yellow;
+	width:100px;
+	height:100px;
+}
+.fourth{
+	display: block;
+	position: relative;
+	top:300px;
+	background-color: green;
+	width:600px;
+	height:300px;
+}
+.circle{
+	position: absolute;
+	top:450px;
+	left:230px;
+	background-color:yellow;
+  	width: 20px;
+  	height: 20px;
+  	border-radius:50%;
+}
+.ellipse{
+	position: absolute;
+	top:450px;
+	left:280px;
+	background-color:yellow;
+  	width: 20px;
+  	height: 20px;
+  	border-radius:50%;
+}
+.round{
+	position: relative;
+	top:142px;
+	left:325px;
+	background-color:yellow;
+  	width: 20px;
+  	height: 20px;
+  	border-radius:50%;
+}

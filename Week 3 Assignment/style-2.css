@@ -1,0 +1,86 @@
+.first {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	background: #A13841;
+	margin-bottom:;
+
+}
+
+.first-circle {
+	position: fixed;
+	border-radius:100%;
+	background: #bb99ff;
+	margin-top: 35px;
+	margin-left: -5px;
+	width: 30px;
+	height: 30px
+}
+
+.second{
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin-left: 140px;
+	background: #A13841;
+	
+}
+
+.second-circle {
+	position: fixed;
+	border-radius:100%;
+	background: #bb99ff;
+	margin-top: 75px;
+	margin-left: 75px;
+	width: 30px;
+	height: 30px
+}
+
+.third {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin-left: 280px;
+	background: #A13841;
+
+}
+
+.third-circle {
+	position: fixed;
+	border-radius:100%;
+	background: #bb99ff;
+	margin-top: 35px;
+	margin-left: 35px;
+	margin-right: 20px;
+	width: 30px;
+	height: 30px
+}
+
+.fourth {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	background: #A13841;
+	margin-top: 140px;
+}
+
+.fourth-circle {
+	position: fixed;
+	border-radius:100%;
+	background: #bb99ff;
+	margin-top: -5px;
+	margin-left: 75px;
+	width: 30px;
+	height: 30px
+
+}
+
+
+
+
+
+

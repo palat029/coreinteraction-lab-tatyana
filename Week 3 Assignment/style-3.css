@@ -1,0 +1,41 @@
+.first {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: orange;
+	margin-bottom:;
+
+}
+
+.second {
+	position: absolute;
+	background: orange;
+	width: 100px;
+	height: 100px;
+	margin-bottom:;
+	margin-left: -1px;
+	top: 19px;
+	left: 19px;
+}
+
+.third {
+	position: absolute;
+	background: lightblue;
+	width: 100px;
+	height: 100px;
+	margin-top: -17px;
+	margin-left: -17px;
+	top: 30px;
+	left: 30px;
+}
+
+.third-circle {
+	position: fixed;
+	background: yellow;
+	width: 100px;
+	height: 35px;
+	margin-top: 15px;
+	margin-left: 5px;
+	top: 30px;
+	left: px;
+}

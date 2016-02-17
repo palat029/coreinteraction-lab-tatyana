@@ -1,0 +1,39 @@
+.first {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	background: #149FFF;
+	margin-bottom:;
+
+}
+
+.second {
+	position: absolute;
+	background: #30FF9A;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin-bottom:;
+	top: 19px;
+	left: 19px;
+}
+
+.third {
+	position: absolute;
+	background: seagreen;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin-bottom:;
+	top: 30px;
+	left: 30px;
+}
+
+.third-circle {
+	position: absolute;
+	border-radius: 100%;
+	background:#149FFF;
+	width: 100px;
+	height: 100px;
+}
