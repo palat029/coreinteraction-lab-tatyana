@@ -1,0 +1,15 @@
+.rect-block{
+	
+	position: relative;
+	background-color: blue;
+	right:0px;
+	height:40px;
+	width:120px;
+}
+.offset{
+	/*top: 30px;*/
+	position: relative;
+	background-color: blue;
+	right:10px;
+	bottom:15px;
+}
