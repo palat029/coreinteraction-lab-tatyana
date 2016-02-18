@@ -1,0 +1,13 @@
+.rect-block{
+	position: relative;
+	margin: 5px;
+	background-color: blue;
+	right:0px;
+	height:40px;
+	width:120px;
+}
+.offset{
+	position: relative;
+	background-color: blue;
+	right:10px;
+}
