@@ -1,0 +1,68 @@
+body{
+	border:dashed 5px #75D701;
+	background-color: red;
+	outline: dotted 7px yellow;
+	
+
+}
+.title{
+	position: relative;
+	text-align: center;
+	font-family: El rio Lobo;
+	font-weight: medium;
+	font-size: 73pt;
+	color:white;
+	line-height: 1.1;
+	background-color: green;
+	
+
+}
+.container{
+	height:80%;
+	width:100%;
+	background-color: red;
+}
+.container_C{
+	height:80%;
+	width:100%;
+	background-color: red;
+}
+.flex-container_conchas{
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+  	height: 500px;
+
+}
+.flex-container_conchas div{
+	margin:5px;
+	font-family: arial;
+	size:12pt;
+	width:200px;
+	height:300px;
+	background: white;
+	color:green;
+	border:solid 5px orange;
+
+}
+.flex-container_conchas img{
+	height:400px;
+	width: 400px;
+}
+
+.flex-container{
+	margin-top: 60px;
+	display: flex;  
+	align-content: center;
+	flex-wrap: wrap;
+}
+.content{
+	padding:10px;
+}
+.content:hover img{
+	padding: 0;
+	position: fixed;
+	z-index: 2;
+	width:300px;
+	height:300px;
+}
