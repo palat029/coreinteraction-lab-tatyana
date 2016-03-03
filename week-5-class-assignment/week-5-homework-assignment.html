@@ -2,24 +2,40 @@
 <head>
 <title> WEEK 5 </title>
 	<link rel="stylesheet" href="main.css">
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 </head>
 <body>
-	<audio src="Hablando.mp3" autoplay></audio>
+	<!-- <audio src="Hablando.mp3" autoplay></audio> -->
 	<div class="title">ANTOJITOS MEXICANO</div>
 	<div class="container_C">
 		<div class="flex-container_conchas">
-			<img src="image_3.jpg" height="150"width="150">
-			<div>Conchas (shells) are known for their shell-like shape and sugar shell pattern on the top. This is one of the most famous Mexican pastries and widely recognized in the United States.
-
-			$1.00
+			<img src="image_3.jpg" height="150"width="150" name="image-swap">
+			<div><h1>Conchas</h1> (shells) are known for their shell-like shape and sugar shell pattern on the top. This is one of the most famous Mexican pastries and widely recognized in the United States.
+			<br>
+			<h3>$1.00<h3>
 			</div>
-				</div>
-			
+				
+
+			<!-- <img src="" name="image-swap"> -->
+
+			<select name="conchas_flavors" id="conchas_flavors">
+				<option value="image_3.jpg"selected>Vanilla</option>
+				<option value="chocolate_concha.jpg">Chocolate</option>
+				<option value="strawberry_concha.jpg">Strawberry</option>
+			</select>
+		
 		</div>
-
-
-
-
+			
+	</div>
 
 </body>
+<script>
+$(document).ready(function(){
+   $("#conchas_flavors").change(function(){
+     $("img[name=image-swap]").attr("src",$(this).val());
+
+   });
+
+});
+</script>
 
