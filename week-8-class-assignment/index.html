@@ -1,0 +1,120 @@
+<doctype html>
+<head>
+</head>
+<body>
+</body>
+
+<script>
+////F I R S T//
+
+function getFirst(myArray){
+	var first= myArray[0];
+	return first;
+}
+var testArray = [4, 13, 87];
+var result = getFirst(testArray);
+console.log(result);
+console.log(getFirst(testArray));
+
+
+//// S E C O N D//
+
+function getLast(goArray){
+	var two= goArray[2];
+	return two;
+}
+var testArray = [4, 13, 87];
+var result = getLast(testArray);
+console.log(result); 
+console.log(getLast(testArray));
+
+//// T H I R D//
+var testArray = [4, 13, 87];
+
+	var last = testArray.length - 1;
+	console.log(last);
+
+		function findLargest(myArray){
+			var big = 0;
+				for (var i = 0; i <= last; ++i) {
+    				
+    				if (testArray[i] > big){
+    					big = testArray[i];
+    	}
+	}
+	return big 
+}
+
+var result = findLargest(testArray);
+console.log(result);
+
+//// F O U R //
+var testArray = [4, 13, 87];
+
+	var last = testArray.length - 1;
+	console.log(last);
+
+		function decrementArray (myArray) {
+			var big = 0;
+			 for (var i = 0; i <= last; ++i) {
+
+			 	if (testArray[i] > big){
+			 		big = testArray[i]-1;
+			 	}
+
+			 }
+			 return big
+		}
+var result = decrementArray(testArray);
+console.log(result);
+
+////F I V E///
+
+var testArray = ['sweet','sphere','stream'];
+
+function addHello (noArray) {
+
+	for ( var i = 0; i < testArray.length; ++i) {
+		testArray[i] = 'hello' +' '+ testArray[i];
+	}
+	return testArray
+}
+var result = addHello(testArray);
+console.log(testArray);
+
+//// S I X ///
+
+
+var testArray = [4, 13, 87];
+
+var last = testArray.length - 1;
+
+
+function appendSomething(soArray){
+
+	for  ( var i = 0; i <= last; ++i ) {
+		testArray = testArray + 'something';
+
+	}
+	return testArray
+}
+var result = appendSomething(testArray);
+console.log(testArray)
+
+//// S E V E N ///
+
+var numeros = {
+	a : 1,
+	b : 2
+};
+
+function listProps(numArray){
+	for ( var key in numeros ) {
+		numeros = numeros - key
+		console.log (key);
+	}
+	return numeros
+
+} 
+var result  = listProps(numeros);
+</script>

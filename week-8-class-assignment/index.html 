@@ -1,0 +1,13 @@
+<doctype html>
+<head>
+</head>
+<body>
+</body>
+
+<script>
+function getFirst () {
+	var testArray = [4, 13, 87];
+	var result = getFirst(testArray);
+	console.log(result);
+
+</script>
