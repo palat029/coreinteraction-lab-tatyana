@@ -1,0 +1,64 @@
+body{
+			background: rgb(166,4,51);
+			border: solid rgb(8,94,196);
+			border-width: 50px;
+
+		}
+			div {
+				font-family: DIN Condensed;
+				font-size: 24pt;
+			}
+			.first-div{
+				background-color: rgb(0,0,0);
+				font-size: 50pt;
+				font-weight: medium;
+				padding-top:30px;
+				text-align: center;
+				color:rgb(255,255,255);
+				
+			}
+			.first-div:hover{
+				padding: 1em;
+				font-size: 50pt;
+				font-weight: 100;
+				font-style: italic;
+				text-align: center;
+				background: rgb(166,4,51);
+				color:rgb(8,94,196);
+			}
+			.second-div{
+				font-size: 50pt;
+				text-align:center;
+				color:rgb(255,100,82);
+			}
+			.second-div:hover{
+				font-size: 90pt;
+				font-weight: bold;
+				font-style:noraml;
+				text-align: center;
+				color:rgb(164,46,189);
+			}
+			.third-div{
+				font-size: 50pt;
+				font-style: italic;
+				padding: 1em;
+				text-align: center;
+				color:rgb(255,100,82);
+			}
+			.third-div:hover{
+				font-size: 60pt;
+				font-weight: bold;
+				text-align: center;
+				text-align: italic;
+				color:rgb(255,81,106);
+			}
+			.really-tall{
+				background: rgb(166,4,51);
+			}
+			.really-big{
+				background: rgb(34,148,48);
+				color:rgb(255,184,74);
+				font-size: 50pt;
+				text-align: center;
+		
+			}

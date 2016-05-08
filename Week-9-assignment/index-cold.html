@@ -1,0 +1,81 @@
+<!-- //select an element and do something with it from the -->
+<doctype html>
+	<head>
+		<!-- //title for haiku -->
+		<title>COLD HAIKU</title>
+		<!-- //add style -->
+		<style>
+		/*//used to group elements for styling purposes*/
+			body{
+				background: rgb(19,24,41);
+			}
+			div {
+				font-size: 30px;
+				font-family: futura;
+				text-align: center;
+				width:1209px;
+				height:593px;
+			}
+			.first-div{
+				padding-top: 260px;
+				
+			}
+			.first-div:hover{
+				color:rgb(35,41,63);
+			}
+			.second-div{
+				color:rgb(255,255,255);
+			}
+			.third-div{
+				color:rgb(0,0,0);
+			}
+			.third-div:hover{
+				color:rgb(25,41,63);
+			}
+			.really-tall{
+				color:rgb(191,190,188);
+			}
+			.really-big{
+				color:rgb(255,255,255);
+				font-family: happy fox;
+				font-size: 60pt;
+			}
+		 </style>
+	
+	</head>
+
+	<body>
+		<div class= "first-div">
+			SPRING RAIN:
+ 		<div class= "second-div">
+			Browsing under an umbrella
+		<div class= "third-div">
+			At the picture book store
+		</div>
+	</body>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js">
+</script>
+
+<script>
+//select an element and do something with it from the
+//dollar sign calls out that you are calling out jquery the website  
+	$('.first-div').click(function(){
+		$(this).toggleClass("really-tall")
+		});
+	$('.third-div').click(function(){
+		$(this).toggleClass("really-big")
+		});
+	</script>
+
+
+	
+	
+
+
+
+
+
+
+
+		

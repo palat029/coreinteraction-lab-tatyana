@@ -1,0 +1,99 @@
+<!-- //select an element and do something with it from the -->
+<doctype html>
+	<head>
+		<!-- //title for haiku -->
+		<title>CALM HAIKU</title>
+		<!-- //add style -->
+		<style>
+		/*//used to group elements for styling purposes*/
+		body{
+			margin-left: 50px;
+			margin-right: 50px;
+			background: rgb(255,234,218);
+	
+		}
+			div {
+				font-family: DIN Condensed;
+				font-size: 24pt;
+			}
+			.first-div{
+				font-size: 18pt;
+				font-weight: 20px;
+				padding-top:30px;
+				text-align: left;
+				color:rgb(178,144,117);
+				
+			}
+			.first-div:hover{
+				padding: 1em;
+				font-weight: 100px;
+				font-style: italic;
+				color:rgb(255,234,218);
+			}
+			.second-div{
+				font-size: 18pt;
+				text-align:center;
+				color:rgb(178,144,117);
+			}
+			.second-div:hover{
+				font-size: 25pt;
+				text-align: center;
+			}
+			.third-div{
+				font-size: 18pt;
+				text-align: right;
+				color:rgb(178,144,117);
+			}
+			.third-div:hover{
+				font-size: 25pt;
+			}
+			.really-tall{
+				background: rgb(178,144,117);
+			}
+			.really-big{
+				color:rgb(255,255,255);
+				font-size: 25pt;
+		
+			}
+		</style>	
+	</head>
+
+	<body>
+		<div class= "first-div">
+			I sink my teeth 
+
+			</div>
+		<div class="second-div">
+			Into a ripe persimmon
+			</div>
+		<div class="third-div">
+			it dribbles down my beard
+			</div>
+
+	</body>
+<!-- //get script from jquery is a javascript library makes working with elments easier in website -->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js">
+</script>
+
+<script>
+//select an element and do something with it from the
+//dollar sign calls out that you are calling out jquery the website  
+	$('.first-div').click(function(){
+		$(this).toggleClass("really-tall")
+	});
+	</script>
+<script>
+	$('.third-div').click(function(){
+		$(this).toggleClass("really-big")
+	});
+	</script>
+
+		
+
+
+
+
+
+
+
+		
