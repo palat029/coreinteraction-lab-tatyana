@@ -1,6 +1,6 @@
 @font-face{
-    font-family: AktivGroteskCd Bold;
-    src: url('AktivGroteskCd_trial_Bd.ttf');
+    font-family: LeageGothic;
+    src: url('LeagueGothic-Regular.otf');
   }
 @font-face{
     font-family: AktivGroteskCd Light;
@@ -11,7 +11,7 @@
 body {
   text-align: left;
   margin: 0;
-  font-family: AktivGroteskCd Bold;
+  font-family: LeagueGothic;
   background-color: lightgray;
 }
 
@@ -380,7 +380,7 @@ it stops at certain point */
     line-height: .7;
     position:absolute;
     left:-11px; top:3px;
-    font-family:AktivGroteskCd Bold; font-size:16pt;   
+    font-family:LeagueGothic; font-size:16pt;   
     background: lightgray;
     border: 3px solid gray; 
     z-index:99999999; 
