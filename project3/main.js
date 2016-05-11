@@ -6,6 +6,7 @@ $('.submit-button').click(function (e) {
 
   $('.username-form').addClass('is-hidden');
   $('.shape-input').removeClass('is-hidden');
+  $('.slideOutTab').removeClass('is-hidden');
 });
 
 
@@ -44,6 +45,13 @@ $('.option-7').click(function () {
 $('.option-8').click(function () {
   sendMessage(8);
 });
+$('.option-9').click(function () {
+  sendMessage(9);
+});
+$('.option-10').click(function () {
+  sendMessage(10);
+});
+
 
 
 function sendMessage(value) {
@@ -95,4 +103,11 @@ Chat.onMessage(function (data) {
   var elem = document.getElementById('message-container');
       elem.scrollTop = elem.scrollHeight;
 });
+
+
+  
+    
+
+
+
 

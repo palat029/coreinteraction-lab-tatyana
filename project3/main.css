@@ -1,17 +1,30 @@
+@font-face{
+    font-family: AktivGroteskCd Bold;
+    src: url('AktivGroteskCd_trial_Bd.ttf');
+  }
+@font-face{
+    font-family: AktivGroteskCd Light;
+    src: url('AktivGroteskCd_trial_Lt.ttf');
+  }
+
+
 body {
+  text-align: left;
   margin: 0;
-  font-family: arial;
+  font-family: AktivGroteskCd Bold;
   background-color: lightgray;
 }
-/*@font-face{
-    font-family: ;
-    src: url('.ttf');
-  }*/
 
-
-
-.is-hidden { opacity: 0 ; }
-
+.is-hidden { 
+  opacity: 0 ;
+  pointer-events:none;
+ }
+.username-input{
+  width:15%;
+  height:30px;
+  background: white;
+  border:none;
+}
 /* When heights is put to 100vh or % it stops the user
 from sending and recieving messages*/
 .username-form {
@@ -19,8 +32,8 @@ from sending and recieving messages*/
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
- /* height:100vh;*/
+  width: 100%;
+  height:100%;
   padding: 20px;
   background-color: rgba(255,255,255,.8);
   box-shadow: 0 0 20px rgba(0,0,0,.125);
@@ -30,6 +43,8 @@ from sending and recieving messages*/
 
 .username-form label {
 
+  font-size: 31pt;
+  margin-top: 20%;
   display: block;
   margin-bottom: 10px;
 }
@@ -55,7 +70,7 @@ from sending and recieving messages*/
   overflow-y:hidden;
 }
 .shape-input {
-  width:1840px;
+  width:1400px;
   height:100%;
   bottom: 0;
   left: 0;
@@ -82,8 +97,31 @@ from sending and recieving messages*/
   margin:10px;
 }
 
+
 .shape-option:hover {
   opacity: .7;
+  border: 3px solid white;
+  animation:myfirst 5s linear infinite;
+-moz-animation:myfirst 5s linear infinite; 
+-webkit-animation:myfirst 5s linear infinite; 
+-o-animation:myfirst 5s linear infinite; 
+}
+
+@keyframes myfirst
+{
+0%,100%   {background:red;}
+25%  {background:yellow;}
+50%  {background:blue;}
+75% {background:green;}
+
+}
+
+@-webkit-keyframes myfirst 
+{
+0%,100%   {background:red;}
+25%  {background:yellow;}
+50%  {background:blue;}
+75% {background:green;}
 }
 
 
@@ -95,8 +133,8 @@ from sending and recieving messages*/
   border:3px solid gray;
 }
 .option-1 {
-  width: 20px;
-  height:20px;
+  width: 40px;
+  height:40px;
   background: none;
   border-radius: 50px;
   border:3px solid gray;
@@ -153,19 +191,21 @@ from sending and recieving messages*/
 
 }
 .option-9 {
-  width: 100px;
-  height:0;
-  border-left: 40px solid transparent;
-  border-bottom: 60px solid black;
+  margin:35px;
+  width: 60px;
+  height:120px;
+  background: none;
+  border:3px solid gray;
+  transform: rotate(50deg);
 }
 .option-10 {
-  width: 100px;
-  height:0;
-  border-left: 40px solid gray;
-  border-bottom: 60px solid black;
+  width: 120px;
+  height:60px;
+  background: none;
+  border:3px solid gray;
 
 }
-.option-11 {
+/*.option-11 {
   width: 100px;
   height:0;
   border-right: 40px solid transparent;
@@ -178,7 +218,7 @@ from sending and recieving messages*/
   border-right: 40px solid transparent;
   border-bottom: 60px solid white;
 
-}
+}*/
 
 
 
@@ -199,40 +239,58 @@ it stops at certain point */
   border-radius: 100px;
   margin-right: 0;
   margin-left:60px;
+  margin-top: 20px;
   border:none;
 }
 .option-1.message{
- /* display: inline-block;*/
-  margin-top:-90px;
+  top:-100px;
+  display: inline-block;
+  position:relative;
+  margin-top:-550px;
   margin-right:0;
-  margin-left:0;
+  margin-left:80px;
   margin-bottom:0;
   border:none;
 }
 
 .option-2.message{
+  position: relative;
+  display: inline-block;
   margin-right: 0;
-  margin-left: 100px;
-  left:90px;
+  top: -110px;
+  margin-left: 10px;
+  left:100px;
   border:none;
 }
 .option-3.message{
-  margin-left:140px;
-  margin-top: 100px;
+  display:inline-block;
+  position: relative;
+  left:60px;
+  margin-left:20px;
+  margin-top: -50px;
+ /* margin-right: 10px;*/
   border:none;
 }
 .option-4.message{
-  margin-left:190px;
-  margin-top: 0px;
+  position: relative;
+  margin-left:90px;
+  top: -110px;
   border:none;
 }
 .option-5.message{
-  margin-left:20px;
+ top:-100px;
+  display: inline-block;
+  position:relative;
+  margin-top:-550px;
+  margin-right:0;
+  margin-left:80px;
   /*margin-top: 90px;*/
   border:none;
 }
 .option-6.message{
-  margin-left:20px;
+  width: 160px;
+  height:230px;
+  margin-left:80px;
   /*margin-top: 90px;*/
   border:none;
 }
@@ -242,31 +300,38 @@ it stops at certain point */
   border:none;
 }
 .option-8.message{
-  margin-left:180px;
-  margin-top: -90px;
+  margin-left:190px;
+  margin-top: -109px;
   border:none;
 }
 .option-9.message{
-  margin-left:100px;
-  margin-top: -30px;
+/*  left:290px;*/
+  position: relative;
+  width: 70px;
+  height:140px;
+  margin-left:230px;
+  margin-top: -200px;
   border:none;
 }
 .option-10.message{
- margin-left:60px;
-  margin-top: -90px;
- /* border:none;*/
+  width:110px;
+  height:40px;
+  position: relative;
+  margin-left:90px;
+  top: -110px;
+  border:none;
 }
-.option-11.message{
+/*.option-11.message{
   margin-left:130px;
   margin-top: 50px;
-/*  border:none;*/
+  border:none;
 }
 .option-12.message{
  margin-left:130px;
   margin-top: 60px;
- /* border:none;*/
+  border:none;
 }
-.message-container{
+*/.message-container{
   background-color:lightgray;
   position:fixed;
   overflow:scroll;
@@ -277,8 +342,55 @@ it stops at certain point */
   bottom:20%;
 }
 
+#oneout {
+    position:fixed;
+    top:40%;
+    left:15px;
+/*    text-align:left;*/
+    -webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-o-transition-duration:0.3s;transition-duration:0.3s;
+ }
+ 
+#oneout_inner {
+    font-family: AktivGroteskCd Light;
+    position:fixed;
+    width:220px; height:100px;
+    top:40%; 
+    left:-250px;
+    padding:5px;
+    background:rgba( 255,255,255,.7);
+    -webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-o-transition-duration:0.3s;transition-duration:0.3s;
+    /*text-align:left;*/
+    z-index:99999999; }
+ 
+#oneout:hover {
+    left:250px;
+    z-index:99999999; 
 
+  }
+ 
+#oneout:hover #oneout_inner {
+    left:0px;
+    z-index:99999999; 
+ }
+.onetitle {
+    padding:5px;
+    text-align: left;
+    height: 90px;
+    width: 40px;
+    line-height: .7;
+    position:absolute;
+    left:-11px; top:3px;
+    font-family:AktivGroteskCd Bold; font-size:16pt;   
+    background: lightgray;
+    border: 3px solid gray; 
+    z-index:99999999; 
+  }
 
+  }
+p{
+  font-size: 12pt;
+  line-height:.13;
+  }
 /*.message.from-current-user {
   text-align: right;
   margin-right: 0;
