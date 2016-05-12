@@ -1,17 +1,17 @@
 @font-face{
-    font-family: "LeagueGothic";
-    src: url('LeagueGothic-Regular.otf');
+    font-family: "Mission Gothic Black";
+    src: url('Mission Gothic Black.otf');
   }
 @font-face{
-    font-family: "AktivGroteskCd Light";
-    src: url('AktivGroteskCd_Trial_Lt.ttf');
+    font-family: "Mission Gothic Light";
+    src: url('Mission Gothic Light.otf');
   }
 
 
 body {
   text-align: left;
   margin: 0;
-  font-family: "LeagueGothic";
+  font-family: "Mission Gothic Black";
   background-color: lightgray;
 }
 
@@ -351,7 +351,7 @@ it stops at certain point */
  }
  
 #oneout_inner {
-    font-family: "AktivGroteskCd Light";
+    font-family: "Mission Gothic Light";
     position:fixed;
     width:220px; height:100px;
     top:40%; 
@@ -380,7 +380,7 @@ it stops at certain point */
     line-height: .7;
     position:absolute;
     left:-11px; top:3px;
-    font-family:"LeagueGothic"; font-size:16pt;   
+    font-family:"Mission Gothic Black"; font-size:16pt;   
     background: lightgray;
     border: 3px solid gray; 
     z-index:99999999; 
